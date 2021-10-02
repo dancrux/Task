@@ -38,13 +38,13 @@ public class Question2 {
 
             for (int col = 1; col < columnNumber; col++ ){
                 x = row * 100;
-                if (col != columnNumber){
+                if (col <= columnNumber){
                     System.out.print( String.format("%,d",x *col) +" " +"\t");
 //                System.out.println();
                 }
 
             }
-            if(row != rowNumber){
+            if(row <= rowNumber){
                 System.out.println(String.format("%,d",x *row) +" ");
 
             }
