@@ -1,7 +1,7 @@
 public class Question3 {
     public static void main(String[] args) {
-        int x = 0;
-        for (x=-10; x<=10; x++){
+
+        for (int x=-10; x<=10; x++){
             System.out.println(x);
         }
 
@@ -14,7 +14,10 @@ iv. for (x=-10; x<=10; x++) { } Executes 21 times*/
 
 //       Question 3c
         /*
-        How the for loop works
+        How  for loop works
+        For loops are used mainly to execute a block of code  automatically until the condition for executing is false
+        For loops are divided mainly into three parts
+
         * */
     }
 }
