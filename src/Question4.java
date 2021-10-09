@@ -11,9 +11,11 @@ public class Question4 {
         double doubleValue = 0.0;
         String stringValue = "";
 
+//        Creates a Scanner object for receiving user input
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter an Integer");
-//        integer = scanner.nextInt();
+
+//        Validates User input for the integer
         boolean goodInteger = false;
         while (!goodInteger){
             String integer = scanner.next();
@@ -26,6 +28,7 @@ public class Question4 {
             }
         }
 
+//        Validates User Input For the Double
             System.out.println("Enter a double");
         boolean goodDouble = false;
         while (!goodDouble){
@@ -38,6 +41,7 @@ public class Question4 {
 
             }
         }
+//        Validates user input For the String of Alphabets
         System.out.println("Enter a String of Alphabets");
         boolean goodAlphabetString = false;
         while (!goodAlphabetString){
