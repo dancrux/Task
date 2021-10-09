@@ -4,12 +4,10 @@ import java.util.Scanner;
 public class Question4 {
 
     public static void main(String[] args) {
-
-
-//        Variables to hold values for int double and strings entered
-        int integerValue = 0;
-        double doubleValue = 0.0;
+         int integerValue = 0;
+         double doubleValue = 0.0;
         String stringValue = "";
+//        Variables to hold values for int double and strings entered
 
 //        Creates a Scanner object for receiving user input
         Scanner scanner = new Scanner(System.in);
@@ -54,7 +52,26 @@ public class Question4 {
                     System.out.println("Invalid String Format");
 
         }
+        System.out.println("Sum of Input is:");
+        System.out.println(calculateInputSum(stringValue, integerValue, doubleValue));
+    }
 
+//    function used to calculate user input
+    public static int calculateInputSum(String string, int intValue, double doubleValue){
+        double sum = 0;
+        char [] array = string.toCharArray();
+        for (int i=0; i<array.length; i++){
+            int ascii = (int)array[i];
+//            Checks the value of alphabets for small letters
+            if (ascii >= 97 && ascii<=122){
+                sum = sum + ascii -96;
+                //            Checks the value of alphabets for small letters
+            }else if (ascii >= 65 && ascii <=90){
+                sum = sum + ascii -64;
+            }
+        }
+        sum = sum+ doubleValue+ intValue;
+        return (int) sum;
     }
 
     }
