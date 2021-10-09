@@ -1,6 +1,5 @@
 import java.util.*;
 public class Question2 {
-
     public static void main(String[] args) {
         validateInput();
 
@@ -44,13 +43,8 @@ public class Question2 {
                 System.out.println(String.format("%,d",x *row) +" ");
 
             }
-
         }
 
-
     }
-
-
-
 
 }
