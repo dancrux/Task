@@ -18,12 +18,7 @@ public class Question3 {
 
 
 
-//        for (int
-//             x=-10; x<=10; x++){
-//            System.out.println(x);
-//        }
-
-//        Qusetion 3b
+//        Question 3b
 
        /*i. for (x=1; x<=10; x++) { } Executes 10 times
 ii. for (x=0; x>10; x++) { } Does not execute Because the condition returns false, because initial value of x is less than 10
@@ -34,7 +29,12 @@ iv. for (x=-10; x<=10; x++) { } Executes 21 times*/
         /*
         How  for loop works
         For loops are used mainly to execute a block of code  automatically until the condition for executing is false
-        For loops are divided mainly into three parts
+        For loops are divided mainly into three parts;
+        1. Initialization Expression: In this Expression, the loop counter is initialized to a start value. E.g i =0;
+        2. Test Expression: in this expression, contains the condition for continuing the loop,  if this expression
+        evaluates to true then the body of the loop executes else the loop is exited. E.g i <= 10;
+        3. Update Expression: this expression holds how to change the loop condition variable by either incrementing or decrementing.
+        E.g i++;
 
         * */
 

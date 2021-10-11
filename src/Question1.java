@@ -8,6 +8,7 @@ public class Question1 {
         int length = 10, prevNumbers = 3;
         calculateSumOfPrev3(10, 3);
     }
+//    function used in calculating the sum of last three numbers in the array
      private static void calculateSumOfPrev3(int length, int prevNumbers){
         int[] arrayList = new int[length];
 //        assigns the value of the first position in the list as 5
@@ -40,47 +41,3 @@ public class Question1 {
      }
 }
 
-//        int previousSum = 0;
-//         arrayList[0]= 5;
-//
-//         for(int i =0; i< length; i++){
-//             if (i < prevNumbers){
-//                 arrayList[i + 1] = arrayList[i] + previousSum;
-//                 previousSum = arrayList[i + 1];
-//
-//             }else {
-//                 arrayList[i] = arrayList[i] + previousSum - arrayList[i + 1- prevNumbers];
-//                 previousSum = arrayList[i + 1];
-//
-//             }
-//
-//         }
-//
-//         for (int i = 0; 1< length; i++){
-//             System.out.println(arrayList +", ");
-//             Collections.reverse(Collections.singletonList(arrayList));
-//            System.out.println(Arrays.toString(arrayList));
-//         }
-
-//        arrayList.add(0, 5);
-//        int sumOf = 0;
-//
-//        for(int index = 0; index<9; index ++ ){
-//            if(index ==1){
-//
-//                int prev1 = (int) arrayList.get(index- 1);
-//                sumOf = prev1 +0;
-//               arrayList.add(index, sumOf);
-//
-//            }else{
-//
-//                int prev1 = (int) arrayList.get(index);
-//                int prev2 = (int) arrayList.get(index - 1);
-//                int prev3 = (int) arrayList.get(index - 2);
-//                sumOf = prev1 + prev2 + prev3;
-//                arrayList.add(index, sumOf);
-//            }
-//            System.out.println(arrayList);
-//            Collections.reverse(arrayList);
-//            System.out.println(arrayList);
-//        }
